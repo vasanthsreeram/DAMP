@@ -8,6 +8,15 @@ We have included a brief, yet detailed explanation of DAMP below.
 
 NFT Project owner chooses an NFT to list on DAMP. They then get the hash of the NFT using SHA256. The NFT Project's main Nano address must then send a micro-transaction to the Nano address with the same hash as the NFT. The micro-transaction also indicates the starting price of the NFT in ETH. 
 
+<details>
+<summary>How Nano address is created</summary>
+    + markdown list 1
+        + nested list 1
+        + nested list 2
+    + markdown list 2
+</details>
+
+
 # Step 2: Listing of NFT
 
 DAMP finds NFTs by crawling owners’ Nano addresses and identifying the NFT hashes. Using the hash, it searches the NFTs on IPFS and lists the NFTs in the marketplace. 
