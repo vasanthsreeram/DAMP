@@ -10,12 +10,8 @@ NFT Project owner chooses an NFT to list on DAMP. They then get the hash of the 
 
 <details>
 <summary>How Nano address is created</summary>
-    + markdown list 1
-        + nested list 1
-        + nested list 2
-    + markdown list 2
+    Source: https://github.com/alecrios/nano-address-validator/blob/master/README.md
 </details>
-
 
 # Step 2: Listing of NFT
 
