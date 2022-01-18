@@ -19,3 +19,19 @@ DAMP finds NFTs by crawling owners’ Nano addresses and identifying the NFT has
 
 # Step 3: Buying and Selling 
 
+Once the NFT is listed buyers would want to start bidding on the nft 
+So they will send the amount they will promise and a pre generated transaction key pair once the NFT has been transferred the 
+Buyer’s wallet will send the encoded amount with the hash key and sends it to the image wallet.
+The seller then validates the transaction by sending the encoded amount and response hash key to the image wallet. 
+This keypair exchange will be proof of new ownership in the Nano network. 
+
+A good analogy is that the encoded amount send by the buyer is him handing out the money at the seller, 
+And the seller’s encoded transaction to the image wallet is the seller taking the money and putting it in his pocket. 
+
+This ensures the trustless nature of the protocol
+
+<details>
+<summary>Hashing for the Transaction keys</summary>
+    <a href="https://en.wikipedia.org/wiki/Pearson_hashing">Pearson Hashing<a> is used to obtain the hash for the transaction as it is light and only takes up 8bits.
+    The verification can be done for a given transaction by applying the pearson hashing algorithm on the seller's transaction hash to obtain the buyer's hash.
+</details>
