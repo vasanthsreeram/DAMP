@@ -1,4 +1,4 @@
-# DAMP
+# Decentralised Autonomous Marketplace Protocol (DAMP)
 Decentralised Autonomous Marketplace Protocol
 
 Centralised NFT Marketplaces such as Opensea and Rarible currently have issues such as high commission fees and censorship of certain NFTs. In order to prevent these issues, we propose DAMP to list, buy, and sell NFTs. There will be no one party controlling the marketplace with DAMP and as a result, commission fees and censorship of certain NFTs can be prevented. We utilise the Nano network in DAMP because Nano allows for feeless transfers and instant transactions. 
